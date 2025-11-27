@@ -34,14 +34,14 @@ metadata:
    name: mongodb 
    namespace: roboshop 
    labels: 
-       component: mongodb
-       project: roboshop 
-       tier: database
+     component: mongodb
+     project: roboshop 
+     tier: database
 spec: 
   selector: 
-      component: mongodb
-      project: roboshop 
-      tier: database
+    component: mongodb
+    project: roboshop 
+    tier: database
   ports: 
     - protocol: TCP 
       port: 27017  # service port
